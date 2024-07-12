@@ -1,3 +1,2 @@
 #!/usr/bin/env ruby
-pattern = /[A-Z]/
-puts ARGV[0].scan(pattern).join
+puts ARGV[0].scan(/[A-Z]/).join
